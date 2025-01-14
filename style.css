@@ -1,131 +1,83 @@
 body {
-	background-color:#1b1b1b;
+  background-color: #1b1b1b;
 }
 
 .container {
-	display: grid;
-	grid-template-columns: repeat(3, 250px); /* Tres columnas de 250px */
-	gap: 20px; /* Espacio entre las cajas */
-	justify-content: start;
-	padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 250px); /* Tres columnas de 250px */
+  gap: 20px;
+  justify-content: start;
+  padding: 20px;
+}
+
+.box {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 .youtube {
-	grid-column: span 2; /* Ocupa dos columnas */
-	width: 100%; /* Se ajusta automáticamente al grid */
+  grid-column: span 2; /* YouTube ocupa dos columnas */
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
-
-.youtube {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 10px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+.twitter {
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .twitch {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 10px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .reddit {
-	height: 250px;
-	width: 250px;
-	margin-top: -790px;
-	margin-left: 275px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .gmail {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 275px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .whatsapp {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 275px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .amazon {
-	height: 250px;
-	width: 250px;
-	margin-top: -790px;
-	margin-left: 540px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
 
 .netflix {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 540px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
-}
-
-.changelog {
-	text-align: left;
-	position: fixed;
-	bottom: 0;
-	left: 10px;
-	font-size: 18px;
-	color: #949494;
-	font-family: Courier New;
-	text-decoration: none;
-}
-
-.nipz58 {
-	text-align: right;
-	position: fixed;
-	bottom: 0;
-	right: 10px;
-	font-size: 18px;
-	color: #949494;
-	font-family: Courier New;
-	text-decoration: none;
-}
-
-.changelogs {
-	color: white;
-	font-size: 18px;
-	font-family: Courier New;
-	margin-left: 10px;
-	list-style: square;
+  width: 100%;
+  background-image: url('ruta-de-tu-imagen.jpg'); /* Aquí agregas la URL de la imagen */
+  background-size: cover; /* Hace que la imagen cubra completamente el cuadrado */
+  background-position: center; /* Centra la imagen dentro del cuadro */
+  width: 100%;
 }
