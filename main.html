@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="https://nipz58.github.io/newtab-orslok/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 	<title>New Tab</title>
 </head>
 <body>
 
+<style>
+		body {
+			background-color: #1b1b1b;
+		}
+
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 250px);
+			gap: 20px;
+			justify-content: start;
+			padding: 20px;
+		}
+
+		.box {
+			height: 250px;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			border-radius: 10px;
+		}
+
+		.youtube {
+			grid-column: span 2;
+			width: 100%;
+		}
+</style>
+	
 <div class="cuadrados">
 	<div class="youtube">
 		<a href="http://www.youtube.com" style="display:block;height:100%;width:100%"></a>
