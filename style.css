@@ -2,19 +2,21 @@ body {
 	background-color:#1b1b1b;
 }
 
-.youtube {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 10px;
-	background-image: url('');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 10px; /* Bordes ligeramente redondeados */
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 250px); /* Tres columnas de 250px */
+	gap: 20px; /* Espacio entre las cajas */
+	justify-content: start;
+	padding: 20px;
 }
 
-.twitter {
+.youtube {
+	grid-column: span 2; /* Ocupa dos columnas */
+	width: 100%; /* Se ajusta automáticamente al grid */
+}
+
+
+.youtube {
 	height: 250px;
 	width: 250px;
 	margin-top: 20px;
