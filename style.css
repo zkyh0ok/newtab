@@ -1,5 +1,5 @@
 body {
-	background-color: #0f0f0f;
+	background-color:#1b1b1b;
 }
 
 .youtube {
@@ -7,7 +7,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #d12d28;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .twitter {
@@ -15,7 +19,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #1DA1F2;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .twitch {
@@ -23,7 +31,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #6441A4;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .reddit {
@@ -31,7 +43,11 @@ body {
 	width: 250px;
 	margin-top: -790px;
 	margin-left: 275px;
-	background-color: #FF5700;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .gmail {
@@ -39,7 +55,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 275px;
-	background-color: #D44638;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .whatsapp {
@@ -47,7 +67,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 275px;
-	background-color: #28e050;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .amazon {
@@ -55,7 +79,11 @@ body {
 	width: 250px;
 	margin-top: -790px;
 	margin-left: 540px;
-	background-color: #ebebeb;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .netflix {
@@ -63,7 +91,11 @@ body {
 	width: 250px;
 	margin-top: 20px;
 	margin-left: 540px;
-	background-color: #E50914;
+	background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px; /* Bordes ligeramente redondeados */
 }
 
 .changelog {
